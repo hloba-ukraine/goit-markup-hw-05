@@ -649,10 +649,11 @@ fieldset {
   color: var(--white);
 }
 .footer-form {
-}
-.footer-form-label {
   display: flex;
   gap: 24px;
+}
+
+.footer-form-label {
 }
 .footer-form-input {
   width: 264px;
