@@ -792,7 +792,7 @@ fieldset {
   justify-content: center;
   fill: transparent;
 }
-.modal-form-checkbox:checked .span {
+input[type="checkbox"]:checked + .checkbox-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
