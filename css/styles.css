@@ -778,6 +778,8 @@ fieldset {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--lightslate);
+  position: relative;
+  padding-left: 24px;
 }
 .checkbox-span {
   width: 16px;
@@ -791,6 +793,9 @@ fieldset {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  position: absolute;
+  top: -10%;
+  left: 0%;
 }
 input[type="checkbox"]:checked + label span {
   background-color: var(--ocean);
