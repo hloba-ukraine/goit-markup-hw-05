@@ -770,7 +770,6 @@ fieldset {
 }
 .modal-checkbox {
   margin-bottom: 24px;
-  position: relative;
 }
 .modal-form-checkbox {
 }
@@ -783,8 +782,8 @@ fieldset {
 }
 .checkbox-span {
   position: absolute;
-  top: 20%;
-  left: 0%;
+  top: 476px;
+  left: 24px;
   width: 16px;
   height: 16px;
   border: 1px solid var(--navyblue-modal);
