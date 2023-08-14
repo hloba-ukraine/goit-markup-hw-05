@@ -781,6 +781,7 @@ fieldset {
   padding-left: 24px;
 }
 .checkbox-span {
+  display: inline-flex;
   position: absolute;
   top: 476px;
   left: 24px;
@@ -791,7 +792,6 @@ fieldset {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
